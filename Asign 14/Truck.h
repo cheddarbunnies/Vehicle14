@@ -1,3 +1,8 @@
+/*
+Taylor Jones
+21.FA.CIS.1202.502
+11/21/2021
+*/
 #ifndef TRUCK_H
 #define TRUCK_H
 #include "Vehicle.h"

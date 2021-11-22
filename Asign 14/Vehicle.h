@@ -1,3 +1,8 @@
+/*
+Taylor Jones
+21.FA.CIS.1202.502
+11/21/2021
+*/
 #ifndef VEHICLE_H
 #define VEHICLE_H
 #include <iostream>
