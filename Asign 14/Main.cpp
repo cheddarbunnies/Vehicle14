@@ -8,6 +8,7 @@ using namespace std;
 
 int main()
 {
+    //Variables
     string manufacturer;
     int year;
     int doors;
@@ -16,6 +17,7 @@ int main()
     cout << "Vehicle program" << endl;
     cout << endl;
 
+    //Vehicle info
     cout << "Vehicle" << endl;
     cout << "Enter the manufacturer: ";
     getline(cin, manufacturer);
@@ -28,6 +30,7 @@ int main()
     vehicle.Display_Info();
     cout << endl;
 
+    //Car info
     cout << "Car" << endl;
     cout << "Enter the manufacturer: ";
     getline(cin, manufacturer);
@@ -44,6 +47,7 @@ int main()
     car.Display_Info();
     cout << endl;
 
+    //Truck info
     cout << "Truck" << endl;
     cout << "Enter the manufacturer: ";
     getline(cin, manufacturer);
@@ -60,6 +64,5 @@ int main()
     truck.Display_Info();
     cout << endl;
 
-    cout << endl;
     return 0;
 }

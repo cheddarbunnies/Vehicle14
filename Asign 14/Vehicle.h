@@ -8,17 +8,17 @@ using namespace std;
 class Vehicle
 {
 private:
+    //Variables
     string manufacturer;
     int year;
 
 public:
-    //constructor
+    //Constructor
     Vehicle(string manufacturer, int year);
 
-    //getters and setters
+    //Functions
     string Get_Manufacturer();
     void Set_Manufacturer(string manufacturer);
-
     int Get_Year();
     void Set_Year(int year);
     virtual void Display_Info();
